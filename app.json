@@ -1,0 +1,34 @@
+{
+  "id": "58e58ef9-daa5-4e51-9045-77a468f251e9",
+  "name": "BI Relegance Data Services",
+  "publisher": "Serenissima Informatica Spa",
+  "version": "1.0.0.2",
+  "brief": "Web services for NAV legacy data extracts",
+  "description": "Business Central query web services that expose the finance and master data extracts previously read from NAV.",
+  "dependencies": [
+    {
+      "id": "561c2f09-9381-498f-83a6-ae9e835f67b0",
+      "name": "HOTEL BACK OFFICE",
+      "publisher": "NAV-lab",
+      "version": "4.0.4.0"
+    }
+  ],
+  "platform": "28.0.0.0",
+  "application": "28.0.0.0",
+  "idRanges": [
+    {
+      "from": 94831,
+      "to": 94860
+    }
+  ],
+  "runtime": "17.0",
+  "features": [
+    "NoImplicitWith",
+    "TranslationFile"
+  ],
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": false,
+    "includeSourceInSymbolFile": false
+  }
+}
